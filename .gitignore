@@ -13,6 +13,6 @@ node_modules
 coverage/
 tmp/
 .tmp/
-main_dist/
 build/
 .ice/
+dist/
