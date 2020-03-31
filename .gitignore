@@ -1,0 +1,18 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+node_modules
+.DS_Store
+.eslintcache
+.happypack
+coverage/
+tmp/
+.tmp/
+main_dist/
+build/
+.ice/

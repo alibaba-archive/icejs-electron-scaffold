@@ -1,0 +1,34 @@
+{
+  "name": "icejs-electron",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "setup": "rm -rf node_modules && ELECTRON_MIRROR=https://cdn.npm.taobao.org/dist/electron/ npm install --registry=http://registry.npm.taobao.org",
+    "start": "electron ./dist",
+    "build": "icejs build && tsc --build ./main/tsconfig.json",
+    "watch": "icejs start --disable-open & tsc --build ./main/tsconfig.json -w",
+    "lint": "eslint --cache --ext .ts,.tsx ./"
+  },
+  "dependencies": {
+    "@alifd/next": "^1.19.17",
+    "@alifd/theme-design-pro": "^0.6.0",
+    "electron": "^8.2.0",
+    "ice.js": "^1.0.12",
+    "moment": "^2.24.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@ice/spec": "^1.0.1",
+    "@types/electron": "^1.6.10",
+    "@types/react": "^16.9.23",
+    "@types/react-dom": "^16.9.5",
+    "build-plugin-fusion": "^0.1.0",
+    "build-plugin-moment-locales": "^0.1.0",
+    "commitlint": "^8.3.5",
+    "concurrently": "^5.1.0",
+    "eslint": "^6.8.0",
+    "stylelint": "^13.2.0",
+    "typescript": "^3.8.2"
+  }
+}

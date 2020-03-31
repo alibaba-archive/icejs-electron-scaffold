@@ -1,0 +1,11 @@
+sudo: required
+language: node_js
+node_js:
+  - '12'
+install:
+  - npm run setup
+script:
+  - npm run lint
+cache:
+  directories:
+    - node_modules
