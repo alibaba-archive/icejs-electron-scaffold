@@ -31,6 +31,7 @@ const PageNav = (props) => {
     <Nav
       className="iceworks-nav"
       type="secondary"
+      activeDirection="right"
       selectedKeys={[location.pathname]}
       defaultSelectedKeys={[location.pathname]}
       embeddable
