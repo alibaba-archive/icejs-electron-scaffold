@@ -12,7 +12,7 @@
   "dependencies": {
     "@alifd/next": "^1.19.17",
     "@alifd/theme-design-pro": "^0.6.0",
-    "electron": "^8.2.0",
+    "electron": "^9.4.0",
     "ice.js": "^1.0.12",
     "moment": "^2.24.0",
     "react": "^16.13.1",
